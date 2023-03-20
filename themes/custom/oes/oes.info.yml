@@ -1,0 +1,20 @@
+name: OES Theme
+type: theme
+description: 'Basic OES theme.'
+core: 8.x
+core_version_requirement: ^8 || ^9 || ^10
+base theme: bootstrap_barrio
+
+libraries:
+  - oes/bootstrap_cdn
+  - oes/global-styling
+
+regions:
+  header: Header
+  hero_content: Hero Content
+  breadcrumb: Breadcrumb
+  content: Content
+  footer: Footer
+
+# Information added by Drupal.org packaging script on 2023-01-19
+project: 'custom'
