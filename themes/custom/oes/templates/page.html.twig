@@ -1,5 +1,3 @@
-{% extends "@bootstrap_barrio/layout/page.html.twig" %}
-
 {#
 /**
  * @file
@@ -70,7 +68,9 @@
 #}
 
 <header>
-  {{ page.header }}
+  <div class="container">
+    {{ page.header }}
+  </div>
 </header>
 <section class="breadcrumb">
   {{ page.breadcrumb }}
